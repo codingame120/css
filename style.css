@@ -1,0 +1,47 @@
+input[type=text]
+{
+	background-color: red;
+}
+input[type=email]
+{
+	background-color: green;
+}
+input[type=numbers]
+{
+	background-color: yellow;
+}
+
+
+button {
+
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+	background-color:green;
+
+
+
+}
+
+button:hover{
+	background-color: orange;
+
+
+}
+a::before
+{
+	content: "\21d2 Click Here:";
+	font-weight: bold;
+}
+@media (max-width: 400px) {
+	.screen-only {
+
+    
+    display: none;
+}
+
+body {
+	background-color: green;
+}
+
+}
