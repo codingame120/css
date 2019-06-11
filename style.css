@@ -1,47 +1,89 @@
-input[type=text]
-{
-	background-color: red;
+body {
+	background-color:silver;
+	
 }
-input[type=email]
-{
-	background-color: green;
+
+
+input[type=text] {
+    background-color: red;
 }
-input[type=numbers]
-{
-	background-color: yellow;
+
+input[type=email] {
+    background-color: green;
+}
+
+input[type=numbers] {
+    background-color: yellow;
 }
 
 
 button {
 
-	width: 200px;
-	height: 50px;
-	font-size: 24px;
-	background-color:green;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: green;
 
 
 
 }
 
-button:hover{
-	background-color: orange;
+button:hover {
+    background-color: orange;
 
 
 }
-a::before
-{
-	content: "\21d2 Click Here:";
-	font-weight: bold;
+
+a::before {
+    content: "\21d2 Click Here:";
+    font-weight: bold;
 }
+
 @media (max-width: 400px) {
-	.screen-only {
+    .screen-only {
 
-    
-    display: none;
+
+        display: none;
+    }
+
+    body {
+        background-color: green;
+    }
+
 }
 
-body {
-	background-color: green;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
 }
+
+.container>div {
+
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.row > div {
+
+background-color: indianred;
+margin: 20px;
+padding: 20px;
+width: 200px;
+/*border: 3px solid lightgreen;*/
+text-align: center;
+	
+
+
+}
+.row{
+	display: flex;
+flex-wrap: wrap;
+justify-content:  center;
+	
 
 }
